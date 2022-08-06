@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 100px;
+  height: 33px;
+}
+ul {
+  width: 100px;
+  border: 1px solid black;
+  list-style: none;
+  display: none;
+}
+.visible {
+  display: block;
+}
