@@ -8,17 +8,19 @@ body {
   display: block;
   background-color: black;
   width: 75vw;
-  height: 80vh;
+  height: 70vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 #img-container {
-  width: 100%;
+  height: 75vh;
   position: relative;
+  gap: 5vh;
 }
 .carousel {
   width: auto;
-  height: 80vh;
+  margin-top: -10px;
+  height: 75vh;
 }

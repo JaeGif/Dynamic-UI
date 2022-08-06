@@ -1,17 +1,17 @@
 class Carousel {
   static bottom = 0;
   static next() {
-    if (Carousel.bottom === 480) {
+    if (Carousel.bottom === 375) {
       Carousel.bottom = 0;
     } else {
-      Carousel.bottom += 80;
+      Carousel.bottom += 75;
     }
   }
   static previous() {
     if (Carousel.bottom === 0) {
-      Carousel.bottom = 480;
+      Carousel.bottom = 375;
     } else {
-      Carousel.bottom -= 80;
+      Carousel.bottom -= 75;
     }
   }
 }
